@@ -1,0 +1,17 @@
+{
+  "name": "gmi-cloud-component",
+  "owner": {
+    "name": "Alhwyn"
+  },
+  "metadata": {
+    "description": "Cursor tooling for GMI Cloud inference.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gmi-cloud-component",
+      "source": "./plugins/gmi-cloud-component",
+      "description": "Guidance for integrating GMI Cloud inference."
+    }
+  ]
+}

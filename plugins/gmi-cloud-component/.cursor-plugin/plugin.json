@@ -1,0 +1,11 @@
+{
+  "name": "gmi-cloud-component",
+  "displayName": "GMI Cloud Component",
+  "version": "0.1.0",
+  "description": "Cursor rules and a skill for integrating GMI Cloud inference.",
+  "author": {
+    "name": "Alhwyn"
+  },
+  "keywords": ["gmi-cloud", "inference", "cursor"],
+  "logo": "assets/logo.svg"
+}

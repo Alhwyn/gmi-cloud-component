@@ -1,0 +1,8 @@
+---
+description: Conventions for adding or reviewing GMI Cloud inference code
+alwaysApply: false
+---
+
+- Confirm the endpoint, model ID, and supported API in the [GMI Cloud inference docs](https://docs.gmicloud.ai/inference-engine/ie-intro).
+- Keep API keys in server-side environment variables. Do not hard-code or log them, or put them in browser code.
+- Mock the inference client in automated tests so checks do not require credentials or make billable requests.
